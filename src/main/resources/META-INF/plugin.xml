@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.example.levelplugin</id>
+    <name>Level System</name>
+    <vendor>WspanialaCzworka</vendor>
+
+    <description>Plugin dodajacy system poziomow i expa za pisanie kodu.</description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="org.example.LevelManager"/>
+        <typedHandler implementation="org.example.TypingListener"/>
+        <statusBarWidgetFactory implementation="org.example.LevelWidgetFactory" id="LevelWidget"/>
+    </extensions>
+
+    <actions>
+        <action id="org.example.ToggleVideoAction" class="org.example.ToggleVideoAction" text="Video Player" icon="AllIcons.Actions.Execute">
+            <add-to-group group-id="RightToolbarSideGroup" anchor="first"/>
+            <add-to-group group-id="MainToolBar" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
