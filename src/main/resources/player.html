@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { margin: 0; overflow: hidden; background: black; }
+        video { width: 100vw; height: 100vh; object-fit: contain; }
+    </style>
+</head>
+<body>
+<video id="v" src="video.webm" controls autoplay></video>
+<script>
+    var v = document.getElementById('v');
+    v.oncanplay = function() {
+        v.play().catch(function(error) {
+            console.log("Autoplay was prevented");
+        });
+    };
+</script>
+</body>
+</html>
