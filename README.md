@@ -14,4 +14,4 @@ Poprzez wpisywanie kolejnych znaków w IDE, zdobywamy punkty exp dzięki którym
 ![pluginlevelup.png](pluginlevelup.png)
 
 ## Przedstawienie funkcjonalności pluginu
-<video controls src="LevelUPlugin.mp4" title="Showcase"></video>
+<video controls src="https://github.com/user-attachments/assets/4720ed08-5b9c-4d5c-b8f4-e6145ff37a85" title="Showcase"></video>
