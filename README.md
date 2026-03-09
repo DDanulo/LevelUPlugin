@@ -9,7 +9,7 @@
 - Karol Dawid 252931
 
 ## Opis pluginu
-Poprzez wpisywanie kolejnych znaków w IDE, zdobywamy punkty exp dzięki którym możemy odblokowywać kolejne poziomy. Jest to ciekawe urozmaicenie pracy, z uwagi na to że możemy poczuć się jak w grze, w której zdobywanie nowych poziomów i porównywanie się ze znajomymi jest wyznacznikiem tego kto jest lepszym programistom. Dodatkowo możliwa jest opcja uruchomiania filmów dostępnych w katalogu, aby zmotywować się do dalszej pracy.
+Poprzez wpisywanie kolejnych znaków w IDE, zdobywamy punkty exp dzięki którym możemy odblokowywać kolejne poziomy. Jest to ciekawe urozmaicenie pracy, z uwagi na to że możemy poczuć się jak w grze, w której zdobywanie nowych poziomów i porównywanie się ze znajomymi jest wyznacznikiem tego kto jest lepszym programistą. Dodatkowo możliwa jest opcja uruchomienia filmów dostępnych w katalogu, aby zmotywować się do dalszej pracy.
 
 ![pluginlevelup.png](pluginlevelup.png)
 
